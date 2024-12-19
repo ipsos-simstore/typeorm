@@ -1,3 +1,18 @@
+## [0.3.21-RC1](https://github.com/ipsos-simstore/typeorm/compare/0.3.20...0.3.21-RC1) (2024-12-19)
+
+
+### Bug Fixes
+
+* composite key save issue ([#10672](https://github.com/ipsos-simstore/typeorm/issues/10672)) ([83567f5](https://github.com/ipsos-simstore/typeorm/commit/83567f533482d0170c35e2f99e627962b8f99a08))
+* moved `reflect-metadata` to `peerDependencies` and set version to `"^0.1.14 || ^0.2.0"` ([#10779](https://github.com/ipsos-simstore/typeorm/issues/10779)) ([e7649d2](https://github.com/ipsos-simstore/typeorm/commit/e7649d2746f907ff36b1efb600402dedd5f5a499))
+
+
+### Features
+
+* add DataSource runWithQueryRunner ([cbc80cf](https://github.com/ipsos-simstore/typeorm/commit/cbc80cf6e8522ef09c14524aad94e9532c37e8e7))
+* transactions with async context QueryRunner ([4be181a](https://github.com/ipsos-simstore/typeorm/commit/4be181a92aa43fbff12f3b8319d2b682289374a3))
+
+
 ## [0.3.20](https://github.com/typeorm/typeorm/compare/0.3.19...0.3.20) (2024-01-26)
 
 ### Bug Fixes
